@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@400;500;700&display=swap');
+body{
+    background-color: #AAAAAA;
+    padding:30px 30px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.influencer{
+    width: 1380px;
+    height: 3306px;
+    background: #FFFFFF;
+    padding-top:30px;
+    padding-left:60px;
+}
+.products{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content:space-between;
+    align-items: center;
+}
+.list{
+    display:flex;
+    list-style: none;
+    margin-left:300px;
+    margin-right:35px;
+    border:3px solid;
+    border-color:white;
+    padding-left:0px;
+}
+.right{
+    padding-right:36.5px;
+}
+.list:hover{
+    border-color:skyblue;
+}
+.list li{
+    font-size:10px;
+    font-weight:600;
+}
+.product{
+    font-size:15px;
+    text-decoration: underline white;
+    text-decoration-skip-ink:none;
+    text-decoration-thickness:4px;
+    text-underline-offset:0px;
+}
+.product:hover{
+    text-decoration-color:skyblue;
+}
+.prebook{
+    border-radius:41px;
+    color:white;
+    background-color:#E02C6D;
+    width: 140px;
+    height: 30px; 
+    padding-left:18px; 
+    padding-top:10px; 
+}
+.Another-border{
+    border:3px solid gray;
+    height:400px;
+    width:400px;
+    border-radius:400px;
+}
+.border{
+    border:3px solid grey;
+    background-color:gray;
+    height:300px;
+    width:300px;
+    border-radius:400px;
+    margin-left:55px;
+    position:relative;
+    z-index:5;
+    top:-355px;
+    left:0px;
+}
+.img{
+    position:relative;
+    z-index: 10;
+    top:-710px;
+    left:20px;
+    height:380px;
+    width:380px;
+}
+.section-two{
+    display:flex;
+    padding-right: 40px;
+    padding-top:40px;
+}
+.container{
+    margin-left:150px;
+}
+.text{
+    font-weight:600px;
+    font-size:52px;
+    margin-bottom:10px;
+    padding-top:-50px;
+}
+.text-one{
+    font-weight:600px;
+    font-size:16px;
+}
+.part-one{
+    border:3px solid white;
+    height:255px;
+    width:580px;
+    position:relative;
+    top:50px;
+}
+.part-two{
+    position:relative;
+    top:-280px;
+    left:5px;
+    z-index:10;
+}
+.part-one:hover{
+    border-color:skyblue;
+}
